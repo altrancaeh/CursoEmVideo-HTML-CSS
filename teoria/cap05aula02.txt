@@ -1,0 +1,3 @@
+Símbolos e emojis:
+<br> é uma quebra de linha. Não faça vários <br> para maiores espaços, isso deverá ser feito 
+diretamente pelo CSS.

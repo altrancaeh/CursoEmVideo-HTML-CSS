@@ -1,0 +1,8 @@
+Direitos autorais e formatos de imagens:
+Na busca do Google, filtre os resultados a partir das Ferramentas para buscar imagens transparentes 
+e de diferentes tipos de uso. Verifique semepre os direitos da imagens antes de as utilizá-las.
+
+Os formatos de imagens mais utilizados na web são o JPEG e o PNG. O JPG existe desde 1983 e seu foco é a máxima compactação, isso pode prejudicar a qualidade da imagem. 
+O PNG surgiu em 1992 através da www foundation e teve como objetivo substituir o GIF. Sua característica é também ser compacto (mas não vence o JPG) e apresenta opções de transparência.
+
+Os arquivos podem ter diversos tamanhos em bytes a depender de seus tamanhos em pixel e seu melhor uso depende da finalidade que cada imagem deve ter no site.
