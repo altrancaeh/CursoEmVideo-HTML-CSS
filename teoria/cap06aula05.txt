@@ -1,0 +1,6 @@
+Professor comentou sobre como gerar favicons, transformar imagens e favicons e adicioná-los nas páginas, acima do title.
+
+sites:
+favicon.io
+favicon.cc
+icon archive

@@ -1,0 +1,9 @@
+Professor iniciou na aula anterior a questão da semântica na HTML. Na HTML4, forma e significado estiveram juntos no código através de comandos visuais direto nas tags como <body bgcolor=""> e outros mencionados no ex007. No HTML, a forma e o significado ganharam seu próprio espaço. Então, para tudo que é SIGNIFICADO, utilizamos a HTML e para tudo que é forma, utilimos o CSS3.
+
+Certos comandos podem resultar o mesmo efeito visual, porém podem não representar o mesmo significado. Um exemplo simples são as formatações de negrito e itálico. Do lado da forma, podemos querer apenas uma representação visual da fonte com os efeitos negrito e itálico, que podemos gerar no CSS. Do outro lado temos o SENTIDO que ter um texto negrito, em destaque, pode trazer. Da mesma forma podemos ter o SENTIDO que ter uma ênfase no texto.
+
+O mesmo acontece quando o professor mencionou as tags <address> na HTML, estas tem o sentido de apresentar um endereço e no caso de um texto num smartphone, ser até capaz de abrir em um aplicativo de navegação após um clique.
+
+A questão principal é entender as diferenças entre FORMA e SENTIDO e aplicar corretamente os códigos, sejam estes na HTML ou no CSS.
+
+Verifique sempre na W3C as tags que são ou não obsoletas, bem como todas as atualizações de código e boas práticas de HTML5!
