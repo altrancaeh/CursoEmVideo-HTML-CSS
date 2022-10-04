@@ -15,5 +15,13 @@
         <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
         <img src="/exercicios/ex011/imagens/foto-g.png" alt="Imagem Flexível">
     </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios por HTML5</p>
+    <!--<audio src="/exercicios/ex011/media/marchofthehares-nathanmoore.mp3" controls autoplay></audio>-->
+    <audio preload="metadata" autoplay controls>
+        <source src="/exercicios/ex011/media/marchofthehares-nathanmoore.mp3" type="audio/mpeg">
+        <!--Aqui podemos colocar várias outras extensões, uma depois da outra conforme capacidade do navegador-->
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="/exercicios/ex011/media/marchofthehares-nathanmoore.mp3" type="media/mpeg" download="marchofthehares-nathanmoore.mp3">Clique aqui para baixar o arquivo MP3.</a></p>
+    </audio>
 </body>
 </html>
