@@ -1,0 +1,14 @@
+.main {
+    background-color: grey;
+    color: rgb(63, 63, 63);
+}
+
+.green {
+    background-color: #6add6a;
+    color: rgb(0, 75, 0);
+}
+
+.yellow {
+    background-color: rgb(235, 235, 114);
+    color: rgb(71, 71, 1);
+}
