@@ -36,13 +36,14 @@ nav {
 }
 
 nav > a {
-    text-decoration: none;
+    text-decoration:solid;
     color: white;
     font-weight: 800;
 }
 
 nav > a:hover {
-    text-decoration: underline;
+    color: #1A5C38;
+    transition: color 0.3s ease-in-out;
 }
 
 main {
@@ -84,5 +85,4 @@ div#extra > h3 {
 
 div#extra > ul {
     columns: 2;
-    
 }
