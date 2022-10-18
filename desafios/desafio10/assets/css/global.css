@@ -1,0 +1,88 @@
+@charset "uft-8";
+
+@font-face {
+    font-family:"Idroid" ;
+    src: url('/desafios/desafio10/assets/fontes/idroid.otf') format('opentype');
+}
+
+* {
+    /* height: 100%; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+body {
+    background-color: #84e1ad;
+}
+
+header {
+    background-color: #31ad68;
+    padding: 1em;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Idroid', Times, serif;
+    color: #427d5d;
+    background-image: linear-gradient(to right,#c9d4cd, #e4eee8, white);
+    background-attachment: fixed;
+}
+
+nav {
+    padding: .5em;
+    text-align: left;
+    word-spacing: .2em;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 4px 4px 9px 9px rgba(0, 0, 0, 0.212);
+}
+
+div#video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    background-color: #1A5C38;
+}
+
+div#video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div#extra {
+    background-color: #c5ebd6;
+    padding: .5em;
+    margin: .5em;
+    border-radius: 15px 15px 15px 15px;
+}
+
+div#extra > h3 {
+    background-color: #1a5c38;
+    color: white;
+    margin: 0;
+    padding: 0;
+    border-radius: 15px 15px 15px 15px;
+}
+
+div#extra > ul {
+    columns: 2;
+    
+}
