@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            height: 100vh;
+            /*
+            criamos esse parametro para permitir organizar os posicionamentos da imagem manualmente.
+            */
+            /* 
+            background-color: black;
+            background-image: url(./imagens/wallpaper002.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover; 
+            */
+            
+            /*
+            SHORTHAND DE BACKGROUND:
+            color > image > position > repeat > (size) > attachment
+
+            o size aparece para conter no shorthand na documentação oficial, mas ele não aparece quando adicionado. Retire o size da shorthand e o coloque separado.
+            */
+
+            background: black url(./imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
+            /*
+            contain faz com que a imagem seja 100% exibida;
+            cover cobre a tela toda, mesmo não a exibindo 100%
+            auto o computador decide a medida baseado na tela
+            em % você decide a porcentagem do tamanho da imagem.
+            A decisão de qual usar fica na necessidade de cada projeto.
+            */
+            background-attachment: fixed ;
+            /*
+            scroll a imagem segue conforme desce a tela
+            fixed a imagem permanece a mesma
+            */
+        }
+        main {
+            background-color: white;
+            max-width: 400px;
+            padding: 10px;
+            margin: auto;
+            border: 1px solid darkblue;
+            border-radius: 15px;
+        }
+    </style>
+    <title>Fundo fixo de tela</title>
+</head>
+<body>
+    <main>
+        <h1>Teste de Imagem de fundo</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, magni quidem? Cumque non fuga autem et alias temporibus odio laboriosam tempore. Rem cupiditate, aliquid repellendus sapiente distinctio enim ipsum consequatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum porro pariatur obcaecati similique, explicabo quas. Natus sit saepe veritatis pariatur, in, nam soluta veniam dolore accusantium quia, ad aperiam provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis dignissimos nam illum temporibus iusto magnam, quam facilis, repudiandae voluptates animi doloremque tempora illo. Fugiat enim quibusdam non animi totam!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, magni quidem? Cumque non fuga autem et alias temporibus odio laboriosam tempore. Rem cupiditate, aliquid repellendus sapiente distinctio enim ipsum consequatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum porro pariatur obcaecati similique, explicabo quas. Natus sit saepe veritatis pariatur, in, nam soluta veniam dolore accusantium quia, ad aperiam provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis dignissimos nam illum temporibus iusto magnam, quam facilis, repudiandae voluptates animi doloremque tempora illo. Fugiat enim quibusdam non animi totam!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, magni quidem? Cumque non fuga autem et alias temporibus odio laboriosam tempore. Rem cupiditate, aliquid repellendus sapiente distinctio enim ipsum consequatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum porro pariatur obcaecati similique, explicabo quas. Natus sit saepe veritatis pariatur, in, nam soluta veniam dolore accusantium quia, ad aperiam provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis dignissimos nam illum temporibus iusto magnam, quam facilis, repudiandae voluptates animi doloremque tempora illo. Fugiat enim quibusdam non animi totam!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, magni quidem? Cumque non fuga autem et alias temporibus odio laboriosam tempore. Rem cupiditate, aliquid repellendus sapiente distinctio enim ipsum consequatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum porro pariatur obcaecati similique, explicabo quas. Natus sit saepe veritatis pariatur, in, nam soluta veniam dolore accusantium quia, ad aperiam provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis dignissimos nam illum temporibus iusto magnam, quam facilis, repudiandae voluptates animi doloremque tempora illo. Fugiat enim quibusdam non animi totam!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, magni quidem? Cumque non fuga autem et alias temporibus odio laboriosam tempore. Rem cupiditate, aliquid repellendus sapiente distinctio enim ipsum consequatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum porro pariatur obcaecati similique, explicabo quas. Natus sit saepe veritatis pariatur, in, nam soluta veniam dolore accusantium quia, ad aperiam provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis dignissimos nam illum temporibus iusto magnam, quam facilis, repudiandae voluptates animi doloremque tempora illo. Fugiat enim quibusdam non animi totam!</p>
+    </main>
+</body>
+</html>

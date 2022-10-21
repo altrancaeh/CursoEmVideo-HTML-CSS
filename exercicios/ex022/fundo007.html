@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+        #container {
+            background-image: url(./imagens/target001.png);
+            background-size: 100% 100%;
+            /*
+            geralmente a position já é relativa, mas precisamos adicionar para que possamos alterar o posicionamento horizontal do container.
+            */
+            position: relative;
+            height: 500px;
+            padding: 10px;
+            background-color: purple;
+        }
+
+        #conteudo {
+            background-image: url(./imagens/target001.png);
+            background-size: 100% 100%;
+            /*
+            Com o container em posicionamento relativo e o conteúdo em posicionamento absoluto, podemos agora alterar os posicionamentos top, right, left e bottom.
+
+            Porém o seu posicionamento não será o mesmo. Faz-se necessário entender a relatividade do posicionamento das divs e a transformar utilizando o paramentro transform > translate. Você deve então trabalhar as porcentagens até encontrar o alinhamento esperado.
+            */
+            position: absolute;
+            
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+            /* A margem serve para alinhar apenas verticalmente.
+            */
+
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
